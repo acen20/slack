@@ -1,8 +1,10 @@
 ReactJS
 Google User Authentication (Firebase)
 React Context API (Redux)
+React Routingcd
 Material UI
 CSS Variables
 Flexbox
 Firebase Deployment
 Real-time database
+Responsive
