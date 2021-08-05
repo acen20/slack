@@ -1,0 +1,8 @@
+ReactJS
+Google User Authentication (Firebase)
+React Context API (Redux)
+Material UI
+CSS Variables
+Flexbox
+Firebase Deployment
+Real-time database
