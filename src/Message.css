@@ -1,0 +1,30 @@
+.chat-message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.chat-message-userimage {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.message-userinfo {
+  display: flex;
+  align-items: center;
+}
+
+.message-userinfo > h4 {
+  font-size: 14px;
+}
+
+.message-timestamp {
+  color: gray;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.message-info {
+  padding-left: 10px;
+}
