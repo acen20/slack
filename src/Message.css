@@ -10,6 +10,10 @@
   object-fit: contain;
 }
 
+.message-timestamp {
+  margin-left: 5px;
+}
+
 .message-userinfo {
   display: flex;
   align-items: center;

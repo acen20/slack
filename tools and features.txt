@@ -8,3 +8,14 @@ Flexbox
 Firebase Deployment
 Real-time database
 Responsive
+
+StateContext has a provider property which takes value from reducer
+StateProvider is a function that takes all the input
+then processes the StateContext
+
+DataLayer --(calls)--> StateProvider --(manipulates)-->
+StateContext <--(returns context)-- Reducer
+
+so, StateContext is the main player here.
+
+useState(StateContext) encompasses all of it.
