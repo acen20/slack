@@ -1,6 +1,12 @@
 import React from "react";
 import "./Message.css";
 function Message({ details }) {
+  let options = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
   return (
     <div className="chat-message">
       <img className="chat-message-userimage" src={details.userimage} alt="" />
@@ -8,7 +14,11 @@ function Message({ details }) {
         <h4>
           {details.user}
           <span className="message-timestamp">
-            {new Date(details.timestamp?.toDate()).toUTCString()}
+            {details.timestamp &&
+              new Date(details.timestamp?.toDate()).toLocaleTimeString(
+                "en-US",
+                options
+              )}
           </span>
         </h4>
         <p>{details.message}</p>

@@ -26,7 +26,7 @@ function Login() {
           src="https://image.flaticon.com/icons/png/512/2111/2111615.png"
           alt=""
         />
-        <h1>Sign in to Nazir HQ</h1>
+        <h1>Sign in to SPD HQ</h1>
         <p>pkslack.web.app</p>
         <Button onClick={signIn}>Sign In with Google</Button>
       </div>

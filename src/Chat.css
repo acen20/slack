@@ -5,6 +5,10 @@
   padding-bottom: 150px;
 }
 
+.chat::-webkit-scrollbar {
+  display: none;
+}
+
 .chat-header {
   display: flex;
   align-items: center;

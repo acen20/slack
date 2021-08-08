@@ -43,11 +43,11 @@ function Chat() {
       </div>
       <div className="chat-messages">
         {roomMessages?.map((message) => (
-          <Message details={message} />
+          <Message key={message.id} details={message} />
         ))}
       </div>
 
-      <ChatInput channelName={roomDetails?.name} key={roomDetails?.id} />
+      <ChatInput channelName={roomDetails?.name} channelId={roomId} />
     </div>
   );
 }
